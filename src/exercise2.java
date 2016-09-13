@@ -1,7 +1,8 @@
 import java.awt.*;
 import java.util.Scanner;
 /**
- * Created by Administrator on 2016/9/8.
+ * 练习思路：素数仅能被1与本身整除，故可对每个素数进行求模运算的循环遍历，
+ * 有且仅有2次求模为0的数即为素数。
  */
 public class exercise2 {
    public static void main(String[] args){
