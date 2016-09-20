@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by Administrator on 2016/9/10.
  */
-public class exercise3 {
+public class Ex3NarcissusNumber {
     public static void main(String[] args){
         int b=0;
         for(int a = 100;a<=999;++a){

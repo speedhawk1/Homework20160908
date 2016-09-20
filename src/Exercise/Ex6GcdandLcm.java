@@ -2,9 +2,10 @@ package Exercise;
 import java.util.Scanner;
 
 /**
- * Created by Administrator on 2016/9/20.
+ * 练习思路：利用欧几里得算法通过while循环语句计算最大公约数，
+ * 进而计算最小公倍数。
  */
-public class GcdandLcmEx6 {
+public class Ex6GcdandLcm {
     private int num1;
     private int num2;
     public int gcd(int a,int b){
@@ -33,8 +34,8 @@ public class GcdandLcmEx6 {
         Scanner imput = new Scanner(System.in);
         int n1 = imput.nextInt();
         int n2 = imput.nextInt();
-        GcdandLcmEx6 n3 = new GcdandLcmEx6();
-        GcdandLcmEx6 n4 = new GcdandLcmEx6();
+        Ex6GcdandLcm n3 = new Ex6GcdandLcm();
+        Ex6GcdandLcm n4 = new Ex6GcdandLcm();
         System.out.print(n3.gcd(n1,n2)+"\n");
         System.out.print(n4.lcm(n1,n2)+"\n");
     }

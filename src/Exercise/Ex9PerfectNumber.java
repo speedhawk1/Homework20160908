@@ -1,5 +1,8 @@
 package Exercise;
-public class PerfectNumberEx9 {
+/*
+* 练习思路：首先求出num的因数并累加，其次输出完数相应的累加数，再次对输出数排列。
+* */
+public class Ex9PerfectNumber {
     public static void main(String[] args){
         int c = 0;
         int d = 0;

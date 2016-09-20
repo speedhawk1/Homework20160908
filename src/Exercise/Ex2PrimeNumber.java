@@ -1,12 +1,11 @@
 package Exercise;
-
 import java.awt.*;
 import java.util.Scanner;
 /**
  * 练习思路：素数仅能被1与本身整除，故可对每个素数进行求模运算的循环遍历，
  * 有且仅有2次求模为0的数即为素数。
  */
-public class exercise2 {
+public class Ex2PrimeNumber {
    public static void main(String[] args){
        int c=0,d=0;
        for(int a=101;a<=200;++a){
