@@ -29,6 +29,7 @@ public class GcdandLcmEx6 {
         return g/f;
     }
     public static void main(String[] args){
+        System.out.println("Imput two numbers:");
         Scanner imput = new Scanner(System.in);
         int n1 = imput.nextInt();
         int n2 = imput.nextInt();
