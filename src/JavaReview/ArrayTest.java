@@ -4,7 +4,7 @@ import static java.lang.System.out;
 /**
  * Created by Administrator on 2016/10/8.
  */
-public class ArrayAndVectorTest {
+public class ArrayTest {
     public static void main(String[] args) {
         int[] arr1 = new int[5];  //数组是一种标准库衍生类型。PS：如想创建一个元素类型不同的数组，可使用Object[]。
         int[] arr2 = {1,2,3,4,5};  //数组可通过参数定义，亦可直接定义。初始化后，其元素个数将不可改变。
