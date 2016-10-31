@@ -32,7 +32,7 @@ public class FileTest_Exc {
                 /*System.out.print((char)i);*/
                 bw.write(i);
             }
-            bw.close();   //释放缓存
+            bw.close();   //关闭输出流，释放缓存。
             writercheck("D:/myproject/Homework20160908/FileUse/new_FileReader.txt");
         } catch (IOException e) {
             e.printStackTrace();
