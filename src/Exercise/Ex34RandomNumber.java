@@ -13,6 +13,7 @@ public class Ex34RandomNumber {
         hash.put("wangwu",3);
         hash.put("maliu",4);
 //        System.out.print(hash.isEmpty());
-        System.out.print(hash.hashCode());
+        System.out.println(hash.hashCode());
+        System.out.println(hash.keySet());
     }
 }
